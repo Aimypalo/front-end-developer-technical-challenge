@@ -1,0 +1,41 @@
+.footer {
+	background-color: cornflowerblue;
+    color: white;
+    @extend %clearfix;
+
+    .centering {
+    	width: 100%;
+    	max-width: 600px;
+	    margin: auto;
+	    padding: 15px;
+    }
+
+    h2 {
+    	text-align: center;
+    }
+}
+
+.newsletter {
+	.field {
+		display: flex;
+    	flex-flow: row wrap;
+    	margin-bottom: 15px;
+	}
+
+	input {
+		width: 100%;
+		font-weight: 300;
+    	padding: 5px 10px;
+    	border-radius: 5px;
+    	color: black;
+	}
+
+	input[type="checkbox"] {
+		width: auto;
+	}
+
+	.button {
+		width: auto;
+	    background-color: white;
+	}
+}

@@ -2,4 +2,8 @@
     max-width: 150px;
     padding-right: 4rem;
     padding-top: 2rem;
+
+    @media (max-width:479px) {
+    	display: none;
+    }
 }

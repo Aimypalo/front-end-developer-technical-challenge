@@ -38,11 +38,19 @@
                     fill: $black;
                 }
             }
+
+            &.enabled {
+                svg path {
+                    fill: $red;
+                }
+            }
         }
+
         button{
             border: 0;
             background-color: transparent;
         }
+
         .delete{
             span{
                 font-size: 2.125rem;
